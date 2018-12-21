@@ -1,0 +1,102 @@
+.page-header {
+	background: url('../img/header/header-bg.png') left top no-repeat;
+	background-size: auto 90%;
+}
+.header-top {
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		padding-top: 16px;
+		padding-bottom: 70px;
+	}
+	&__logo {
+		display: flex;
+		align-items: flex-start;
+	}
+	&__text {
+		width: 225px;
+		& h1 {
+			margin: 6px;
+			font-size: 14px;
+			font-weight: bold;
+			color: #dc6530;
+		}
+		& p {
+			margin: 0;
+			font-size: 10px;
+			line-height: 12px;
+		}
+	}
+	&__info {
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+		width: 530px;
+		font-size: 14px;
+		& img {
+			margin-right: 8px;
+			margin-left: 8px;
+		}
+	}
+	&__work {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	&__phone {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	&__button {
+		text-transform: none;
+	}
+}
+.header-bottom {
+	background: url('../img/header/men.png') 800px top no-repeat;
+	background-size: 576px auto;
+	margin: 0 auto;
+	padding-bottom: 180px;
+	width: 98%;
+	&__wrapper {
+		width: 765px;
+		& h2 {
+			padding-top: 46px;
+		}
+		& p {
+			width: 490px;
+		}
+	}
+	&__buttons {
+		display: flex;
+		margin-top: 100px;
+	}
+	&__button-left {
+		padding-left: 24px;
+		padding-right: 20px;
+	}
+	&__button-right a{
+		padding-top: 14px;
+	}
+	&__action {
+		padding-left: 24px;
+		font-size: 14px;
+		line-height: 19px;
+		& span {
+			position: relative;
+			font-weight: 900;
+			color: #ff7639;
+			&::before {
+				position: absolute;
+				content: '';
+				width: 20px;
+				height: 63px;
+				top: -52px;
+				left: -22px;
+				background: url('../img/header/arrow.png') center no-repeat;
+			}
+		}
+	}
+}
+
