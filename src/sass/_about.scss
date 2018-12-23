@@ -1,0 +1,55 @@
+.about {
+	min-height: 980px;
+	background: url('../img/about/about-bg.png') center no-repeat;
+	background-size: 1920px auto;
+	& h2 {
+		padding-top: 180px;
+		padding-bottom: 70px;
+	}
+	& ul {
+		list-style: none;
+		padding-left: 75px;
+	}
+	& li {
+		position: relative;
+		line-height: 40px;
+		&::before {
+			position: absolute;
+			content:'';
+			width: 8px;
+			height: 8px;
+			left: -18px;
+			top: 15px;
+			background-image: linear-gradient(90deg, #ff5858, #f09819);
+			transform: rotate(45deg);
+		}
+	}
+	&__wrapper {
+		&-left {
+			width: 60%;
+		}
+		&-right {
+			display: flex;
+			flex-direction: column;
+			width: 40%;
+		}
+	}
+	&__list {
+		&-wrapper {
+			display: flex;
+		}
+		&-title {
+			margin-bottom: 55px;
+			font-size: 30px;
+			line-height: 36px;
+			font-weight: normal;
+		}
+		&-button {
+			padding-top: 50px;
+			& a {
+				padding-left: 40px;
+				padding-right: 40px;
+			}
+		}
+	}
+}
