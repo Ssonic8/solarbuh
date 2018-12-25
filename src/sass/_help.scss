@@ -1,0 +1,39 @@
+.help {
+	&__list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin-top: 70px;
+		list-style: none;
+		padding-left: 0;
+		&-button {
+			position: relative;
+			margin-top: 35px;
+			& a {
+				padding-left: 30px;
+				padding-right: 30px;
+			}
+			&::before {
+				position: absolute;
+				content:'';
+				width: 250px;
+				height: 250px;
+				left: 4px;
+				top: -102px;
+				background-color: transparent;
+				border: 1px solid #ffd4c0;
+				transform: rotate(45deg);
+			}
+		}
+	}
+	&__item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-bottom: 50px;
+		width: 28%;
+		& p {
+			width: 88%;
+		}
+	}
+}
