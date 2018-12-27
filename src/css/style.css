@@ -877,3 +877,73 @@ input[type="checkbox"].visually-hidden {
   height: 77px;
   background: url("../img/icons/right.png") center no-repeat;
 }
+
+.partners__title {
+  margin-top: 115px;
+  margin-bottom: 60px;
+}
+
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+}
+
+.partners__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  width: 290px;
+  height: 160px;
+}
+
+.partners__button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 106px;
+}
+
+.partners__button a {
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 30px;
+}
+
+.exceptions {
+  background: url("../img/partners/exceptions-bg.png") center no-repeat;
+  background-size: 1920px auto;
+  min-height: 575px;
+}
+
+.exceptions__title {
+  padding-top: 120px;
+  margin-bottom: 100px;
+}
+
+.exceptions__title span {
+  color: #e30000;
+}
+
+.exceptions__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.exceptions__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 255px;
+}
+
+.exceptions__item-img {
+  margin-bottom: 20px;
+}
+
+.exceptions__item-text {
+  text-align: center;
+}
