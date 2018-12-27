@@ -788,7 +788,7 @@ input[type="checkbox"].visually-hidden {
   margin-bottom: 25px;
   width: 345px;
   font-size: 30px;
-  line-height: 40px;
+  line-height: 36px;
   font-weight: 800;
 }
 
@@ -822,7 +822,7 @@ input[type="checkbox"].visually-hidden {
   left: 0;
   width: 81px;
   height: 77px;
-  background: url("../img/team/left.png") center no-repeat;
+  background: url("../img/icons/left.png") center no-repeat;
 }
 
 #team-carousel .owl-nav button.owl-next {
@@ -832,5 +832,48 @@ input[type="checkbox"].visually-hidden {
   right: 0;
   width: 81px;
   height: 77px;
-  background: url("../img/team/right.png") center no-repeat;
+  background: url("../img/icons/right.png") center no-repeat;
+}
+
+.docs {
+  background: url("../img/docs/bg.png") center no-repeat;
+  background-size: 1920px auto;
+  min-height: 788px;
+}
+
+.docs__title {
+  margin: 0;
+  margin-bottom: 60px;
+  padding-top: 130px;
+}
+
+.docs__slider {
+  margin: 0 auto;
+  width: 970px;
+}
+
+.docs__slide {
+  width: 311px;
+  height: 421px;
+}
+
+#docs-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  content: '';
+  top: 50%;
+  margin-top: -65px;
+  left: -80px;
+  width: 81px;
+  height: 77px;
+  background: url("../img/icons/left.png") center no-repeat;
+}
+
+#docs-carousel .owl-nav button.owl-next {
+  position: absolute;
+  top: 50%;
+  margin-top: -65px;
+  right: -80px;
+  width: 81px;
+  height: 77px;
+  background: url("../img/icons/right.png") center no-repeat;
 }

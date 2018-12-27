@@ -72,7 +72,7 @@
 			margin-bottom: 25px;
 			width: 345px;
 			font-size: 30px;
-			line-height: 40px;
+			line-height: 36px;
 			font-weight: 800;
 		}
 		display: flex;
@@ -109,7 +109,7 @@
 	left: 0;
 	width: 81px;
 	height: 77px;
-	background: url('../img/team/left.png') center no-repeat;
+	background: url('../img/icons/left.png') center no-repeat;
 }
 #team-carousel .owl-nav button.owl-next {
 	position: absolute;
@@ -118,5 +118,5 @@
 	right: 0;
 	width: 81px;
 	height: 77px;
-	background: url('../img/team/right.png') center no-repeat;
+	background: url('../img/icons/right.png') center no-repeat;
 }
