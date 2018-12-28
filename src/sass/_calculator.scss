@@ -1,9 +1,8 @@
 .calculator {
-	background: url('../img/calculator/bg.png') center no-repeat;
-	background-size: 1920px auto;
+	background: url('../img/calculator/bg.png') top center no-repeat;
 	min-height: 2290px;
 	&__title {
-		padding-top: 130px;
+		padding-top: 60px;
 	}
 	&__subtitle {
 		margin-top: 20px;

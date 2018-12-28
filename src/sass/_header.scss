@@ -1,6 +1,6 @@
 .page-header {
-	background: url('../img/header/header-bg.png') left top no-repeat;
-	background-size: auto 90%;
+	background: url('../img/header/bg.png') top center no-repeat;
+	min-height: 810px;
 }
 .header-top {
 	&__wrapper {
@@ -54,8 +54,6 @@
 	}
 }
 .header-bottom {
-	background: url('../img/header/men.png') 800px top no-repeat;
-	background-size: 576px auto;
 	margin: 0 auto;
 	padding-bottom: 180px;
 	width: 98%;

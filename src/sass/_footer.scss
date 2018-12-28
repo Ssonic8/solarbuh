@@ -1,0 +1,43 @@
+.page-footer {
+	position: relative;
+	margin-top: -80px;
+	background: url('../img/footer/map.jpg') top center no-repeat;
+	min-height: 642px;
+	z-index: 0;
+}
+.footer__wrapper {
+	position: relative;
+}
+.footer__contacts {
+	position: absolute;
+	padding: 40px;
+	width: 310px;
+	min-height: 230px;
+	top: 160px;
+	left: 0;
+	background-color: #fff;
+	box-shadow: 5px 5px 14px rgba(#343434, 0.4);
+	&-title {
+		margin-bottom: 32px;
+	}
+	& p {
+		margin-bottom: 26px;
+		padding-left: 20px;
+		& a {
+			position: relative;
+			text-decoration: underline;
+			color: #ff8955;
+		}
+	}
+	&::before {
+		position: absolute;
+		content:'';
+		width: 338px;
+		height: 338px;
+		left: -35px;
+		top: -25px;
+		background-color: transparent;
+		border: 1px solid #ffd4c0;
+		transform: rotate(-45deg);
+	}
+}

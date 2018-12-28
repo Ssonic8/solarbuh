@@ -30,9 +30,10 @@
 	}
 }
 .exceptions {
-	background: url('../img/partners/exceptions-bg.png') center no-repeat;
-	background-size: 1920px auto;
+	position: relative;
+	background: url('../img/partners/exceptions-bg.png') top center no-repeat;
 	min-height: 575px;
+	z-index: 2;
 	&__title {
 		padding-top: 120px;
 		margin-bottom: 100px;
